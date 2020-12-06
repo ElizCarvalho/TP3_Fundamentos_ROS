@@ -56,6 +56,10 @@ $ cd ~/tp3_fund_ros/ros2_ws/src
 $ ros2 pkg create --build-type ament_python --node-name ros2_node_subs ros2_package_subs
 $ cd ~/tp3_fund_ros/ros2_ws
 $ colcon build
+$ cd /tp3_fund_ros/ros2_ws/src/ros2_package_subs/ros2_package_subs/
+$ gedit ros2_node_subs.py
+$ cd ~/tp3_fund_ros/ros2_ws
+$ colcon build
 $ . install/local_setup.bash
 $ ros2 run ros2_package_subs ros2_node_subs 
 ```
